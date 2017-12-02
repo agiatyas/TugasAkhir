@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="tabismillah.FasilitasController">
+   <children>
+      <AnchorPane layoutX="12.0" layoutY="7.0" prefHeight="72.0" prefWidth="588.0" style="-fx-background-color: #c21d1d;">
+         <children>
+            <Label layoutX="180.0" prefHeight="74.0" prefWidth="233.0" text="Facilities" textFill="WHITE">
+               <font>
+                  <Font name="Eras Medium ITC" size="62.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+      <ImageView fitHeight="353.0" fitWidth="634.0" layoutY="85.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../gambar/bioskop.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="41.0" fitWidth="45.0" layoutX="35.0" layoutY="219.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../gambar/speaker.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="41.0" fitWidth="45.0" layoutX="35.0" layoutY="284.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../gambar/pop.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="41.0" fitWidth="41.0" layoutX="35.0" layoutY="157.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../gambar/toilet.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="btnBack" layoutX="280.0" layoutY="360.0" mnemonicParsing="false" onAction="#Back" text="Back" />
+      <Label layoutX="81.0" layoutY="155.0" text="Toilet">
+         <font>
+            <Font name="System Bold Italic" size="30.0" />
+         </font></Label>
+      <Label layoutX="81.0" layoutY="217.0" text="Super Speaker">
+         <font>
+            <Font name="System Bold Italic" size="30.0" />
+         </font></Label>
+      <Label layoutX="81.0" layoutY="282.0" text="Free Popcorn">
+         <font>
+            <Font name="System Bold Italic" size="30.0" />
+         </font></Label>
+      <ImageView fitHeight="41.0" fitWidth="41.0" layoutX="294.0" layoutY="157.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../gambar/chair.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="45.0" fitWidth="41.0" layoutX="294.0" layoutY="219.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../gambar/maem.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="41.0" fitWidth="41.0" layoutX="294.0" layoutY="209.0" pickOnBounds="true" preserveRatio="true" />
+      <Label layoutX="347.0" layoutY="154.0" text="Comfortable ">
+         <font>
+            <Font name="System Bold Italic" size="31.0" />
+         </font>
+      </Label>
+      <Label layoutX="347.0" layoutY="217.0" text="Food Beverage">
+         <font>
+            <Font name="System Bold Italic" size="30.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="41.0" fitWidth="41.0" layoutX="294.0" layoutY="284.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../gambar/movie.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="347.0" layoutY="282.0" text="New Movie">
+         <font>
+            <Font name="System Bold Italic" size="30.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
